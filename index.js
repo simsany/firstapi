@@ -3,6 +3,10 @@ var app=express();
 var mongoose=require("mongoose");
 var routes=require("./routes/todo")
 var bodyParser=require("body-parser");
+var cors = require('cors')
+
+
+app.use(cors())
 
 
 
